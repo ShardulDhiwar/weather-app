@@ -42,4 +42,4 @@ Built with:
 \`\`\`
 npm run build
 \`\`\`
-" > README.md
+" 
