@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Weather App</h1>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        <button id="toggle-view" class="toggle-btn">Show 7-Day Forecast</button>
+        <div id="weather-result" class="weather-result hidden">
+            <img id="weather-icon" alt="Weather Icon">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <p id="error-message" class="error-message hidden"></p>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html> 
