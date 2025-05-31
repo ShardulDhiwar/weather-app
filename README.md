@@ -1,4 +1,24 @@
-echo "# Weather App
+# 🌦️ Weather App
+
+A responsive and user-friendly weather application that allows users to search for current weather conditions and 7-day forecasts for any city around the world. It also includes air quality index (AQI) data using the OpenWeatherMap API.
+
+Built with:
+- HTML, CSS, and JavaScript
+- Webpack for bundling
+- Environment variable support via `dotenv-webpack`
+
+---
+
+## 🚀 Features
+
+- 🌍 Search weather by city
+- 🔁 Toggle between current weather and 7-day forecast
+- 🌬️ View air quality index, humidity, wind speed
+- 📱 Responsive UI design
+- 🔒 Secure API key management using `.env`
+
+---
+
 
 ## Setup
 
