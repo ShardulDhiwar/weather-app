@@ -1,45 +1,16 @@
-# 🌦️ Weather App
+# React + Vite
 
-A responsive and user-friendly weather application that allows users to search for current weather conditions and 7-day forecasts for any city around the world. It also includes air quality index (AQI) data using the OpenWeatherMap API.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built with:
-- HTML, CSS, and JavaScript
-- Webpack for bundling
-- Environment variable support via `dotenv-webpack`
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features
+## React Compiler
 
-- 🌍 Search weather by city
-- 🔁 Toggle between current weather and 7-day forecast
-- 🌬️ View air quality index, humidity, wind speed
-- 📱 Responsive UI design
-- 🔒 Secure API key management using `.env`
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-
-## Setup
-
-1. Clone the repo:
-   \`\`\`
-   git clone https://github.com/ShardulDhiwar/weather-app.git
-   \`\`\`
-
-2. Create a \`.env\` file:
-   \`\`\`
-   VITE_WEATHER_API_KEY=your_openweathermap_api_key
-   \`\`\`
-
-3. Install dependencies and run:
-   \`\`\`
-   npm install
-   npm run start
-   \`\`\`
-
-## Build
-\`\`\`
-npm run build
-\`\`\`
-" 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
