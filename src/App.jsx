@@ -85,7 +85,7 @@ function App() {
 
   {/* App Name */}
   <h1 className="text-3xl font-extrabold tracking-tight mb-1">
-    Sky<span className="text-sky-400">Cast</span>
+    Cloud<span className="text-sky-400">Pop</span>
   </h1>
 
   {/* Subtitle */}
