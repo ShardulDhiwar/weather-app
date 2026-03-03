@@ -1,4 +1,4 @@
-# 🌤️ SkyCast — Weather App
+# 🌤️ CloudPop — Weather App
 
 A clean, modern weather app built with **React** + **Vite** + **Tailwind CSS**, powered by the OpenWeatherMap API. Get real-time weather conditions and a 5-day forecast for any city in the world.
 
