@@ -35,11 +35,6 @@ A clean, modern weather app built with **React** + **Vite** + **Tailwind CSS**, 
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/skycast.git
-cd skycast
-```
-
 ### 2. Install dependencies
 
 ```bash
